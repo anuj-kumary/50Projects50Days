@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        max-width: 100vw;
+        min-height: 100vh;
+    }
+    #modal-btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        outline: none;
+        border-style: none;
+        cursor: pointer;
+        background-color: #6D28D9;
+        color: #fff;
+        font-size: 17px;
+        letter-spacing: 1.25px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .modal-content{
+        max-width: 400px;
+        width: 300px;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        z-index: 2;
+        border-radius: 10px;
+        animation:scale-up-top .4s cubic-bezier(.39,.575,.565,1.000) both
+    }
+    form{
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .heading{
+        margin-top: 30px;
+        letter-spacing: 1.2px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    #close{
+        float: right;
+        margin: 5px 10px;
+        font-size: 18px;
+        width: 20px;
+        background-color: skyblue;
+        height: 20px;
+        text-align: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    input{
+        width: 80%;
+        margin: 20px 0;
+        padding: 13px;
+        font-size: 16px;
+        text-transform: capitalize;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        background-color: #E5E7EB;
+    }
+    .submit-btn{
+        margin: 10px 0;
+    }
+    p{
+        margin-top: 5px;
+    }
+
+    @keyframes scale-up-top{
+        0%{transform:scale(.5);
+           transform-origin:50% 0
+        }
+        100%{transform: translate(-150px, 11px);
+            transform-origin:50% 0}
+        }

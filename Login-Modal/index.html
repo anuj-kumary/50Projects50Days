@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div id="modal-btn">
+            <button id="btn">Login</button>
+        </div>
+        <div id="myModal" class="modal">
+            <div id="modal-data" class="modal-content">
+                <span id="close">x</span>
+                <h1 class="heading">Login Form</h1>
+                <form>
+                    <input type="text" placeholder="Enter Email" id="">
+                    <input type="text" placeholder="Enter Password" id="">
+                    <button class="submit-btn">Submit</button>
+                    <hr>
+                    <p>Forget Password ?</p>
+                </form>
+            </div>
+        </div>
+    </header>
 
     <script src="index.js"></script>
 </body>
