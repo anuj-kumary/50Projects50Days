@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #2c72eb;
+    font-family: system-ui;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+section{
+    max-width: 800px;
+    max-height: 450px;
+    width: 750px;
+    padding: 30px 0;
+    background-color: #fff;
+}
+section .box-wrapper{
+    padding: 30px 20px
+}
+h3 , .name{
+    font-size: 30px;
+    letter-spacing: 1.25px;
+    
+}
+p{
+    line-height: 1.5;
+    letter-spacing: 0.8px
+}
+section .images{
+    width: 35%;
+    margin: 20px 50px;
+    float: left; 
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+.article{
+    width: 50%;
+    display: inline-block;
+    padding: 30px 0px;
+}
+.title{
+    text-align: start;
+}
+.author{
+    color: #a7b1d4;
+    text-align: start;
+}
+.direction{
+    display: flex;
+    justify-content: center;
+}
+#prev,#next{
+    font-size: 30px;
+    color: #2c72eb; ;
+    padding: 0 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
