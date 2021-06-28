@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <p>Coding Addict</p>
+            </div>
+            <div id="openSidebar" class="hamburger">
+                <p>&#x2261;</p>
+            </div>
+        </div>
+        <div class="sidebar" id="sidenav">
+            <a href="#" id="closeNav">&#xd7;</a>
+            <a href="#">Coding <span>Addict</span></a>
+            <a href="#"><i class='bx bx-home-alt'></i> Home</a>
+            <a href="#"><i class='bx bxs-contact'></i> Contact</a>
+            <a href="#"><i class='bx bxl-blogger'></i> Blog</a>
+            <a href="#"><i class='bx bx-category'></i> Category</a>
+            <a href="#"><i class='bx bxs-bookmark'></i> Bookmark</a>
+        </div>
+    </header>
+    <main>
+        <h3>Side Navigation Bar in HTML CSS & JavaScript</h3>
+    </main>
+
+
+
+    <script>
+        const openSidebar = document.getElementById('openSidebar')
+        const sideNav = document.getElementById('sidenav')
+        const sidebar = document.querySelector('.sidebar')
+        const closeSideNav = document.getElementById('closeNav')
+        openSidebar.addEventListener('click', function () {
+            sideNav.style.width = "250px";
+        })
+        closeSideNav.addEventListener('click', function () {
+            sideNav.style.width = "0"
+        })
+    </script>
+</body>
+
+</html>
