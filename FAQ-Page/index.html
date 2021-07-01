@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2 class="title">
+            FAQs
+        </h2>
+        <div class="faq">
+            <div class="questions">
+                <h3>What is JavaScript</h3>
+                <svg width = "15" height="10" viewBox="0 0 42 25">
+                    <path d = "M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="answer">
+                <p>JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers. JavaScript is also an Object-based Programming language</p>
+            </div>
+        </div>
+            <div class="faq">
+            <div class="questions">
+                <h3>What are global variables? How are these variable declared?</h3>
+                <svg width = "15" height="10" viewBox="0 0 42 25">
+                    <path d = "M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="answer">
+                <p>Global variables are available throughout the length of the code so that it has no scope. The var keyword is used to declare a local variable or object. If the var keyword is omitted, a global variable is declared.</p>
+            </div>
+            </div>
+            <div class="faq">
+            <div class="questions">
+                <h3>What is a prompt box?</h3>
+                <svg width = "15" height="10" viewBox="0 0 42 25">
+                    <path d = "M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                </svg>
+           
+            </div>
+            <div class="answer">
+                <p>A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number.</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        const faqs = document.querySelectorAll('.faq');
+
+        faqs.forEach(faq => {
+            faq.addEventListener("click",()=>{
+                faq.classList.toggle('active');
+            })
+        })
+    </script>
+</body>
+</html>
