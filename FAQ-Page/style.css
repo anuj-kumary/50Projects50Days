@@ -1,55 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: #1c1c1c;
-    color: #fff;
+body {
+  background: #1c1c1c;
+  color: #fff;
 }
-section{
-    min-height: 100vh;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+section {
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.title{
-    font-size: 3rem;
-    margin: 2rem 0rem;
+.title {
+  font-size: 3rem;
+  margin: 2rem 0rem;
 }
-.faq{
-    max-width: 700px;
-    margin-top: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #fff;
-    cursor: pointer;
+.faq {
+  max-width: 700px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
 }
-.questions{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.question h3{
-    font-size: 1.8rem;
+.question h3 {
+  font-size: 1.8rem;
 }
-.answer{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1.4s ease;
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
 }
-.answer p{
-    padding-top: 1rem;
-    line-height: 1.6;
-    font-size: 1rem;
+.answer p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
 }
-.faq.active .answer{
-    max-height: 300px;
+.faq.active .answer {
+  max-height: 300px;
 }
-.faq.active svg{
-    transform: rotate(180deg);
+.faq.active svg {
+  transform: rotate(180deg);
 }
-svg{
-    transition: transform .5s ease-in-out;
+svg {
+  transition: transform 0.5s ease-in-out;
 }
