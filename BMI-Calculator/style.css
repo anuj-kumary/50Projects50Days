@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
+    letter-spacing: 1.3px;
+    font-family: monospace;
+    font-size: 25px;
+}
+ .box{
+    display: block;
+    width: 600px;
+    text-align:center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+input,label{
+    margin: 5px 15px;
+    padding: 10px 10px;
+}
+
+#btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin:10px 0;
+    cursor: pointer;
+}
+#bmi{
+   font-size: 18px;
+   font-family: monospace; 
+}
