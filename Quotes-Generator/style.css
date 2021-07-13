@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 16px;
+    text-align:center
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-width: 230px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 0 1rem;
+    border: 2px solid #111;
+}
+.heading{
+    font-size: 30px;
+    margin: 2rem 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box{
+    min-width: 200px;
+    width:500px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #D1D5DB;
+}
+#quotes{
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-family:'Dosis', sans-serif;
+    letter-spacing: 2px;
+}
+#author{
+    text-align: right;
+    padding: .5rem 1rem;
+}
+
+button{
+    margin: 2rem 0;
+    padding: .5rem 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    transition: background-color .3s ease-in;
+}
+button:hover{
+    background-color: #7C3AED;
+    color: #fff;
+    border-width: 0;
+}
+
+@media (max-width:500px) {
+    .box{
+        width: 90%;
+    }
+}
