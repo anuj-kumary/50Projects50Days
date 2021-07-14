@@ -1,0 +1,85 @@
+* {
+  @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-family: monospace;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e5e7eb;
+}
+header {
+  margin-top: 1rem;
+  font-size: 25px;
+}
+.container {
+  margin-top: 1rem;
+  max-width: 600px;
+  width: 500px;
+  text-align: center;
+}
+main {
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-family: Ubuntu;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid #111;
+  outline: none;
+}
+button {
+  padding: 9px 15px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #7c3aed;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  border-style: none;
+}
+.box {
+  max-width: 400px;
+  width: 290px;
+  height: auto;
+  margin: 10px auto;
+}
+li {
+  list-style: none;
+  text-align: start;
+  padding: 10px 10px;
+  margin: 5px 0;
+  color: #111;
+  background-color: #d1d5db;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.closeStyle {
+  display: inline-flex;
+  float: right;
+  position: relative;
+  top: -36px;
+  font-size: 18px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
