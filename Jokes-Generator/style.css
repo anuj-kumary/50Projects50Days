@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: Ubuntu;
+}
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #696ddf;
+}
+.container {
+  text-align: center;
+  max-width: 700px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.heading {
+  padding-top: 2rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+.jokes {
+  padding: 0 2rem;
+  padding-top: 2rem;
+  font-size: 20px;
+  letter-spacing: 1.8px;
+  word-wrap: break-word;
+}
+button {
+  margin: 2rem 0;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #8e61cc;
+  color: #fff;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+}
