@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2 class="heading">guess my number!</h2>
+        <p class="text">A fun number guessing javascript game</p>
+        <hr>
+        <p class="text">Guess my random secret number. You will get feedback on how close or far you're </p>
+        <p class="text" id="counts">You have <span>10</span> attempts to guess the right number</p>
+        <div class="box">
+            <input type="text" id="inputValue">
+            <button id="btn">Guess</button>
+        </div>
+        <p id="prevousGuess"></p>
+        <p id="result"></p>
+       <button id="hide">Start new game</button>
+    </div>
 
     <script src="index.js"></script>
 </body>
