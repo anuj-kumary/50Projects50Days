@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.text-center{
+    text-align: center;
+    margin-top: 3rem;
+}
+form{
+   margin: 10px auto;
+}
+input{
+    padding: .5rem 1rem;
+    font-weight: 600;
+}
+button{
+    padding: .5rem .4rem;
+    font-weight: 600;
+}
