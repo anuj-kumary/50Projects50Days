@@ -10,13 +10,19 @@ body{
 }
 .text-center{
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
     letter-spacing: 1.2px;
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
 }
 form{
    margin: 10px auto;
+}
+a{
+    color: #7C3AED;
+}
+hr{
+    margin:1rem 0;
 }
 input{
     padding: .5rem .3rem;
