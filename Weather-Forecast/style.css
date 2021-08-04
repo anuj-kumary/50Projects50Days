@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+body{
+    background-color: #293252;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
    position:absolute;
@@ -11,7 +16,39 @@
 }
 .box{
     max-width: 700px;
-    width: 500px;
-    height: 400px;
-    background-color: lightblue;
+    width: 320px;
+    height: 350px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h3{
+    padding-top: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+}
+input{
+    padding: .3rem;
+    margin: 1rem 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    outline: none;
+}
+button{
+    padding: .3rem;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#temperature{
+    font-size: 8vmax;
+    font-weight: 600;
+    color: #293252;
+}
+#cloudy{
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #293252;
 }
