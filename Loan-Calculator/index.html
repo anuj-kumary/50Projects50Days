@@ -12,16 +12,16 @@
         <div class="box">
         <h3>Loan Calculator</h3>
         <label for="amount">Amount :</label>
-        <input type="text">
-        <label for="interset">Intereset Rate :</label>
-        <input type="text">
+        <input type="number" id="amount">
+        <label for="interest">Intereset Rate :</label>
+        <input type="number" id="interest">
         <label for="months">Months to Pay :</label>
-        <input type="text">
-        <button id="calculate-btn">Calculate</button>
+        <input type="number" id="months">
+        <button type="submit" id="calculate-btn">Calculate</button>
         <div class="result">
             <p class="monthly-payment"></p>
             <p class="interest"></p>
-            <p class="total-interest">
+            <p class="total-payment">
             </p>
         </div>
     </div>

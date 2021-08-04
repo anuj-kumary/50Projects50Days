@@ -3,12 +3,17 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: #343a40;
+}
 .container{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: grey;
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .box{
     width: 400px;
@@ -23,11 +28,20 @@ input{
     display: block;
     margin: .2rem 0;
     padding: .3rem;
-    border: none;
+    border: 1px solid #111;
     border-radius: 5px;
 }
 button{
     margin: 1rem 0;
     padding: .3rem .5rem;
+}
+.result{
+    display: none;
+}
+.monthly-payment , .interest , .total-payment{
+    margin: .8rem 0;
+    padding: .3rem .5rem;
+    border: 1px solid #111;
+    letter-spacing: 1.2px;
 }
 
