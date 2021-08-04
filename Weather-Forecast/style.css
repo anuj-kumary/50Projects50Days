@@ -16,39 +16,60 @@ body{
 }
 .box{
     max-width: 700px;
-    width: 320px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     background-color: #fff;
     text-align: center;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 h3{
-    padding-top: 1rem;
+    padding-top: .3rem;
     text-transform: capitalize;
     letter-spacing: 1.2px;
 }
 input{
     padding: .3rem;
     margin: 1rem 0;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: capitalize;
     outline: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 button{
     padding: .3rem;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 600;
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
 }
 #temperature{
-    font-size: 8vmax;
+    margin-top: -10px;
+    font-size: 4vmax;
     font-weight: 600;
     color: #293252;
+}
+.icon{
+    margin-top: -10px;
 }
 #cloudy{
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 1px;
     color: #293252;
+}
+#time-date{
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    letter-spacing: 1.25px;
+}
+
+@media (max-width:700px){
+    #temperature{
+        font-size: 9vmax;
+    }
 }
